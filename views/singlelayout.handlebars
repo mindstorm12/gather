@@ -1,0 +1,26 @@
+
+    <div class="single-item-container">
+      <div class="single-item-card">
+        <div class="single-item-contents">
+          <div id="item-title" class="single-item-title">
+            {{items.title}}
+          </div>
+          <div class="single-item-img">
+            <img src="{{items.imageUrl}}" alt="">
+          </div>
+          <div id="item-description" class="single-item-description">
+            {{items.description}}
+          </div>
+          <div class="single-item-navigation">
+            <a href="index.html">
+              <img class="back-arrow" src="/img/back.svg" alt="back">
+            </a>
+            <a href="/update/{{items._id}}">
+              <div class="button update-button">
+                Update
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
